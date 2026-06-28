@@ -1,5 +1,5 @@
 resource "aws_instance" "this" {
-  ami           = "ami-0c2b8ca1dad447f8a" # Ubuntu AMI (ap-south-1)
+  ami           = "ami-0b6d9d3d33ba97d99" # Ubuntu AMI (ap-south-1)
   instance_type = var.instance_type
 
   tags = {
